@@ -1,0 +1,67 @@
+@font-face{
+    font-family: "Allura";
+    src: url(../webfonts/);   
+}
+@font-face{
+    font-family: "Poppins";
+    src: url();
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+                /* BANNER */
+#banner{
+    background-image: url(../image/bg-slider-06.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 80vh;
+}
+#banner .inside{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#banner .inside a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#banner .inside a:hover{
+    color: goldenrod;
+}
+#banner .social{
+    display: flex;
+    justify-content: flex-end;
+    justify-content:space-evenly;
+    margin-left: 85%;
+}
+#banner .social a{
+    color: white;
+}
+#banner .social a:hover{
+    color: goldenrod;
+}
+#banner nav h2{
+    color: white;
+}
+.title{
+   text-align: center;
+}
+.title h2{
+    color: goldenrod;
+    margin-top: 4rem;
+}
+.title h1{
+    color: white;
+    font-size: 2rem;
+}
+.title h3{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1rem;
+}
