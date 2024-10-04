@@ -46,8 +46,9 @@
             <div class="left">
                 <h2>Discover</h2>
                 <h3>OUR STORE</h3>
-                <img src="assets/image/ic-plate.png" alt="couverts croisé">
-                <img src="assets/image/avatar-01.jpg" alt="chef cook">
+                <img class="img1" src="assets/image/ic-plate.png" alt="couverts croisé">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatum praesentium, eligendi omnis explicabo iure ut, ea fugiat ex fugit vel iusto voluptas soluta ipsam magni!</p>
+                <div class="img2"><img src="assets/image/avatar-01.jpg" alt="chef cook"></div>
                 <h4>Russel Stephens</h4>
                 <h5>CHEF COOK</h5>
             </div>
@@ -63,6 +64,7 @@
         <section id="Discover">
 
             <div class="when">
+                <h2>Discover</h2>
                 <img src="assets/image/ic-plate.png" alt="couverts croisé">
                 <ul>
                     <li><a href="">Breakfast</a></li>
@@ -72,12 +74,13 @@
                     <li><a href="">Other</a></li>
                 </ul>
             </div>
+            
             <article class="menu">
 
                 <!-- lign1 -->
 
                 <div class="lign1">
-                    <div class="1.1">
+                    <div class="p1">
                         <img src="assets/image/dish-item-01.jpg" alt="pasta">
                         <div class="text">
                             <h5>ITALIAN SOURCE MUSHROOM</h5>
@@ -85,7 +88,7 @@
                         </div>
                         <p class="price">$12</p>
                     </div>    
-                    <div class="1.2">
+                    <div class="p2">
                         <img src="assets/image/dish-item-02.jpg" alt="potatoes">
                         <div class="text">
                             <h5>FRIED POTATOES WHITH GARLIC</h5>
@@ -98,7 +101,7 @@
                 <!-- lign2 -->
 
                 <div class="lign2">
-                    <div class="2.1">
+                    <div class="p1">
                         <img src="assets/image/dish-item-03.jpg" alt="tuna">
                         <div class="text">
                             <h5>TUNA ROAST SOURCE</h5>
@@ -106,7 +109,7 @@
                         </div>
                         <p class="price">$15</p>
                     </div>    
-                    <div class="2.2">
+                    <div class="p2">
                         <img src="assets/image/dish-item-04.jpg" alt="pork">
                         <div class="text">
                             <h5>ROAST PORK (4 STICKS)</h5>
@@ -119,7 +122,7 @@
                 <!-- lign3 -->
 
                 <div class="lign3">
-                    <div class="3.1">
+                    <div class="p1">
                         <img src="assets/image/dish-item-05.jpg" alt="chicken">
                         <div class="text">
                             <h5>SALTED FRIED CHICKEN</h5>
@@ -127,7 +130,7 @@
                         </div>
                         <p class="price">$20</p>
                     </div>    
-                    <div class="3.2">
+                    <div class="p2">
                         <img src="assets/image/dish-item-06.jpg" alt="crab">
                         <div class="text">
                             <h5>CRAB WHITH CURRY SOURCES</h5>
@@ -140,7 +143,7 @@
                 <!-- lign4 -->
 
                 <div class="lign4">
-                    <div class="4.1">
+                    <div class="p1">
                         <img src="assets/image/dish-item-07.jpg" alt="pasta">
                         <div class="text">
                             <h5>IMPORTED SALMON STEAK</h5>
@@ -148,7 +151,7 @@
                         </div>
                         <p class="price">$16</p>
                     </div>    
-                    <div class="4.2">
+                    <div class="p2">
                         <img src="assets/image/dish-item-08.jpg" alt="potatoes">
                         <div class="text">
                             <h5>BAKED POTATOES PIZZA</h5>
@@ -158,8 +161,12 @@
                     </div>
                 </div>
             </article>
-
+            <div class="table"><img src="assets/image/bg-menu-01.jpg"></div>
         </section>
+                
+            <!-- Reservation -->
+
+        
         <section id="reservation">
             <div class="opening">
                 <h2>Time</h2>
@@ -176,48 +183,160 @@
             <div class="online">
                 <h2>Reservation</h2>
                 <h3>ONLINE BOOKING</h3>
-                <img src="assets/image/ic-plate.png" alt="couverts croisé">
+                <div><img src="assets/image/ic-plate.png" alt="couverts croisé"></div>
                 <form action="">
-                    <div>
-                        <label for="nombre_personnes">People</label>
-                        <select id="nombre_personnes" name="nombre_personnes" required>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                        <label for="date">Date</label>
-                        <input type="date" id="date" name="date" required>
+                    <div class="form">
+                        <div class="form1">
+                            <label for="nombre_personnes">People</label>
+                            <select id="nombre_personnes" name="nombre_personnes" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="date" required>
 
-                        <label for="time">Time</label>
-                        <input type="time" id="time" name="time" required>
+                            <label for="time">Time</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form2">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
 
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" name="phone" required>
 
-                        <label for="phone">Phone</label>
-                        <input type="text" id="phone" name="phone" required>
-
-                        <label for="email">Email :</label>
-                        <input type="email" id="email" name="email" required>
-                    
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
                         <button type="submit">BOOK NOW</button>
                     </div>
                 </form>
             </div>
         </section>
-     
 
+                            <!-- gallery -->
+
+        <section id="gallery">
+            <div>
+                <h2>Discover</h2>
+                <h3>OUR GALLERY</h3>
+                <div class="couverts"><img src="assets/image/ic-plate.png" alt="couverts croisé"></div>
+            </div>
+            <div class="pictur">
+                <a class="p1" href=""><img src="assets/image/dish-gallery-01.jpg" alt="vin"></a>
+                <a class="p2" href=""><img src="assets/image/dish-gallery-02.jpg" alt="burger"></a>
+                <a class="p3" href=""><img src="assets/image/dish-gallery-03.jpg" alt="oeuf"></a>
+                <a class="p4" href=""><img src="assets/image/dish-gallery-04.jpg" alt="toast"></a>
+                <a class="p5" href=""><img src="assets/image/dish-gallery-05.jpg" alt="dessert"></a>
+                <a class="p6" href=""><img src="assets/image/dish-gallery-06.jpg" alt="plat"></a>
+            </div>
+            <div><a href="">VIEW ALL GALLERY</a></div>
+        </section>
+
+                                <!-- our event -->
+
+        <section id="event">
+            <article class="e1">
+                <div>
+                    <div class="black">
+                        <div>
+                            <img src="assets/image/event-01.jpg" alt="whisky">
+                            <div><p>08 July</p></div>
+                        </div>
+                    </div>
+                    <div class="white">
+                        <p>Night Inspirescu Party</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Restaurant Resto <i class="fa-regular fa-clock"></i> 10:00pm - 06:00 am</p>
+                        <p><strong>BUY TICKETS</strong></p>
+                    </div>
+                </div>
+            </article>
+            <article class="e2"></article>
+                <div>
+                    <div class="black">
+                        <div>
+                            <img src="assets/image/event-02.jpg" alt="herbal">
+                            <div><p>08 July</p></div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="white">
+                        <p>Dj Robag Ruhme</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Restaurant Resto <i class="fa-regular fa-clock"></i> 10:00pm - 06:00 am</p>
+                        <p><strong>BUY TICKETS</strong></p>
+                    </div>
+                </div>
+            </article>
+            <article class="e3"></article>
+                <div>
+                    <img src="assets/image/event-03.jpg" alt="glass">
+                    <div class="black">
+                        <div><p>08 July</p></div>
+                    </div>
+                    <div class="white">
+                        <p>Thousands celebrities at Johnnie Night</p>
+                        <p><i class="fa-solid fa-location-dot"></i> Restaurant Resto <i class="fa-regular fa-clock"></i> 10:00pm - 06:00 am</p>
+                        <p><strong>BUY TICKETS</strong></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+                            <!-- MAP -->
+
+        <section id="map">
+            <article class="gues">
+                <div><img src="assets/image/avatar-02.jpg" alt="cheffe cook"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque minus earum perspiciatis reiciendis ad aut nobis hic aliquid omnis! Commodi consequuntur facilis blanditiis quod beatae non dolorem, eligendi vel eaque!</p>
+                <h4>Russel Stephens</h4>
+                <h5>CEO - HeadPassion</h5>
+            </article>
+            <article class="carte">
+                <div>
+                    <img class="m1" src="assets/image/map.png" alt="map">
+                    <img class="m2" src="assets/image/ic-cricle.png" alt="point">
+                </div> 
+            </article>
+        </section>
+
+                            <!-- footer -->
+
+        <section id="footer">
+            <div class="resto">
+                <h2>Resto</h2>
+                <p>Acclaimed former Nightwood chef Jason Vincent is back in professional kitchen after opening his first own restaurant in a tiny space in Logan Square, house made pastas. </p>
+            </div>
+            <div class="new">
+                <h5>NEWSLETTER</h5>
+                <form action="#" method="post" id="newsletter-form">
+                    <input type="email" name="email" id="email" placeholder="Your email address" required>
+            </div>
+            <div class="follow">
+                <h5>FOLLOW US:</h5>
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </section>
     </main>
-
-                     
-
-    
 </body>
 </html>
+
+<!-- .-._   _ _ _ _ _ _ _ _
+.-''-.__.-'00  '-' ' ' ' ' ' ' ' '-.
+'.___ '    .   .--_'-' '-' '-' _'-' '._
+ V: V 'vv-'   '_   '.       .'  _..' '.'.
+   '=.____.=_.--'   :_.__.__:_   '.   : :
+           (((____.-'        '-.  /   : :
+                             (((-'\ .' /
+                           _____..'  .'
+                          '-._____.-' -->

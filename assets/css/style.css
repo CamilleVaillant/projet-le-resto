@@ -1,15 +1,24 @@
 @font-face{
     font-family: "Allura";
-    src: url(../webfonts/);   
+    src: url(../font/Allura/Allura-Regular.ttf);   
 }
 @font-face{
     font-family: "Poppins";
-    src: url();
+    src: url(../font/Poppins/Poppins-Regular.ttf);
 }
 *{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+h1,h3{
+    font-family: "Poppins";
+}
+h2{
+    font-family: "Allura";
+}
+body{
+    /* background-color: rgb(37, 36, 36); */
 }
 
                 /* BANNER */
@@ -26,6 +35,10 @@
     margin-left: 25%;
     margin-right: 25%;
 }
+#banner nav{
+    /* display: flex;
+    justify-content: space-between; */
+}
 #banner .inside a{
     color: white;
     text-decoration: none;
@@ -38,7 +51,7 @@
     display: flex;
     justify-content: flex-end;
     justify-content:space-evenly;
-    margin-left: 85%;
+    margin-left: 80%;
 }
 #banner .social a{
     color: white;
@@ -64,4 +77,358 @@
     margin-top: 2rem;
     color: white;
     font-size: 1rem;
+}
+
+            /* CHEF WORDS */
+
+#store{
+    height: 80vh;
+    display: flex;
+    background-color: rgb(241, 241, 232);
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin: 1rem;
+    border: 1px goldenrod dashed ;
+    padding: 0;
+    background-color: rgb(241, 241, 232);
+    justify-content: space-evenly;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+}
+.left h2{
+    color: goldenrod;
+    font-size: 4rem;
+    /* margin-top: -10rem;
+    margin-bottom: 0; */
+}
+.left h3{
+    font-size: 3rem;
+    /* margin-top: -2rem;
+    margin-bottom: 2rem; */
+}
+.left .img1{
+    margin-bottom: 3rem;
+}
+.left p{
+    padding: 0 17rem;
+    line-height: 25px;
+}
+.left .img2{
+    border-radius: 50%;
+}
+.lef .img2 img{
+    background-size: cover;
+    border-radius: 50%;
+}
+
+            /* menu */
+
+#Discover{
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    position: relative;
+}
+.when h2{
+    color: goldenrod;
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+.when img{
+    margin: 4rem;
+}
+.when a{
+    color: white;
+}
+
+.when ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+
+            /* lign1 */
+
+.when .table{
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    margin-top: 25vh;
+}
+.menu{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3rem;
+    border: 1px solid goldenrod;
+    border-top: 4px solid goldenrod;
+}
+.menu .price{
+    color: goldenrod;
+}
+.menu h5,p{
+    color: gray;
+}
+.menu .lign1{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    justify-content: space-between;
+    
+}
+.lign1 .p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+.lign1 .p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+            /* lign2 */
+
+.menu .lign2{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    justify-content: space-between;
+    
+}
+.lign2 .p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+.lign2 .p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+        /* lign3 */
+
+.menu .lign3{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    justify-content: space-between;
+    
+}
+.lign3 .p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+.lign3 .p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+                /* lign4 */
+
+.menu .lign4{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    justify-content: space-between;
+    
+}
+.lign4 .p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+.lign4 .p2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    border-bottom: grey 1px dashed;
+    margin: 1rem;
+    padding: 1rem;
+}
+.menu{
+    position: absolute;
+}
+.table{
+    background-size: cover;
+    margin-top: 150px;
+}
+
+
+
+            /* reservation */
+
+
+
+#reservation{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    background-color: black;
+    
+}
+.opening{
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    background-color: black;
+    border:1px dashed goldenrod;
+    margin: 2%;
+}
+.opening h2{
+    color: goldenrod;
+    font-size: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+.opening h3{
+    color: white;
+    font-size: 3rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+.opening h4{
+    color: goldenrod;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.online{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.online h2{
+    text-align: center;
+    color: goldenrod;
+    font-size: 6rem;
+    margin-top: 5rem;
+}
+.online h3{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -2rem;
+}
+.online div{
+    text-align: center;
+    background-size: cover;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.form2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.online button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    transition: 0.25s ease;
+}
+
+
+                /* gallery */
+
+#gallery{
+    background-color: rgb(37, 36, 36);
+}
+#gallery h2{
+    color: goldenrod;
+    font-size: 6rem;
+    text-align: center;
+}
+#gallery h3{
+    color: white;
+    font-size:4rem ;
+    text-align: center;
+    margin-top: -2rem;
+}
+#gallery .couverts{
+    text-align: center;
+    margin: 2rem;
+}
+.pictur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2em;
+}
+
+.p1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.p2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.p3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.p4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.p5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.p6{
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
