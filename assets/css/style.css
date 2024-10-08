@@ -18,7 +18,7 @@ h2{
     font-family: "Allura";
 }
 body{
-    /* background-color: rgb(37, 36, 36); */
+    background-color: rgb(37, 36, 36);
 }
 
                 /* BANNER */
@@ -110,23 +110,24 @@ nav h2{
 .left h2{
     color: goldenrod;
     font-size: 4rem;
-    /* margin-top: -10rem;
-    margin-bottom: 0; */
+    
 }
 .left h3{
     font-size: 3rem;
-    /* margin-top: -2rem;
-    margin-bottom: 2rem; */
+   
 }
 .left .img1{
     margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 .left p{
-    padding: 0 17rem;
+    padding: 0 7rem;
     line-height: 25px;
+    margin-bottom: 3rem;
 }
 .left .img2{
     border-radius: 50%;
+    object-fit: cover;
 }
 .lef .img2 img{
     background-size: cover;
@@ -240,6 +241,9 @@ nav h2{
     color: goldenrod;
     margin-top: 3.5rem;
     margin-bottom: 1rem;
+}
+#reservation .opening p{
+    color: white;
 }
 
 .online{
@@ -457,4 +461,93 @@ nav h2{
     background-size: cover;
     width: 400px;
     margin-bottom: 2%;
+    padding: 2rem;
+    position: relative;
+}
+
+.a3 .white{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    justify-content: space-evenly;
+    height: 240px;
+    padding-top: 4.5rem;
+
+    
+}   
+.a3 .black{
+    position: absolute;
+    margin-left: 9rem;
+}
+
+
+            /* map */
+#map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gues{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+}
+.carte{
+    background-image: url(../image/map.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.m2{
+    margin-left:55%;
+    margin-top: 12%;
+}
+
+            /* footer */
+
+#footer{
+    background-image: url(../image/bg-footer.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    margin: 0;
+  
+    align-items: center;
+}
+.fo .resto h2{
+    color: goldenrod;
+    font-size: 2rem ;
+}
+.fo{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+.fo .resto p{
+    color: gray;
+}
+.fa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: space-evenly;
+    margin-left: 150px;
+}
+.fa h5{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.follow a{
+    margin-left: 2rem;
+    color: white;
 }
